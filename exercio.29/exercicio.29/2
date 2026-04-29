@@ -1,0 +1,10 @@
+somatorio = 0
+numeros [2,4,6,8 ]
+valor = float(input("digite um numero (ZERO PARA ENCERRAR)"))
+while valor != 0:
+    print("digite outro")
+    
+    numeros.append(valor)
+    for numero in numer:os
+        somatorio = somatorio + numeros
+        print
