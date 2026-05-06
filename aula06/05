@@ -1,0 +1,31 @@
+vetor = [23, 78, 45, 12, 90, 33, 67, 4, 56, 81]
+
+pares = []
+impares = []
+soma = 0
+
+maior = vetor[0]
+menor = vetor[0]
+
+for n in vetor:
+    soma += n
+
+    if n % 2 == 0:
+        pares.append(n)
+    else:
+        impares.append(n)
+
+    if n > maior:
+        maior = n
+
+    if n < menor:
+        menor = n
+
+media = soma / len(vetor)
+
+print("Vetor:", vetor)
+print("Pares:", pares)
+print("Ímpares:", impares)
+print("Maior:", maior)
+print("Menor:", menor)
+print("Média:", media)
