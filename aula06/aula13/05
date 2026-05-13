@@ -1,0 +1,7 @@
+anos = int(input("digita a idade em anos"))
+meses = int(input("digite a idade em meses"))
+dias = int(input("digite a idade em dias"))
+
+total_dias = (anos * 365) + (meses * 30) + dias
+
+print("Total de dias",total_dias)
